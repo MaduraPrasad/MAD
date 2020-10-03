@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "160269644827",
+    "firebase_url": "https://onlinefoodshop-be60d.firebaseio.com",
+    "project_id": "onlinefoodshop-be60d",
+    "storage_bucket": "onlinefoodshop-be60d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160269644827:android:4759d1efc05a193c57f4be",
+        "android_client_info": {
+          "package_name": "com.example.onlinefoodshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "160269644827-k8tq779v3ht5g2c52ti9dsjkqrptt9v6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.onlinefoodshop",
+            "certificate_hash": "53133825be08f2f41d463c9c86790083c8662474"
+          }
+        },
+        {
+          "client_id": "160269644827-uhgcmi6ell443vuspidoi1067cgrkjk3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUO11doADAbn74uipjhqQlNSYunoF58go"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "160269644827-uhgcmi6ell443vuspidoi1067cgrkjk3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

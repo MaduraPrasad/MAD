@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile"
+    android:background="@drawable/background1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="MY PROFILE"
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/box1"
+        android:layout_width="350dp"
+        android:layout_height="480dp"
+        android:background="@drawable/box1"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        />
+    <Button
+        android:id="@+id/profile_btn_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box2"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:text="EDIT PROFILE"
+
+        />
+
+    <Button
+        android:id="@+id/profile_btn_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box2"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:text="ORDER HISTORY"
+
+        />
+
+    <Button
+        android:id="@+id/profile_btn_cart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box2"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:text="MY CART"
+
+        />
+</RelativeLayout>

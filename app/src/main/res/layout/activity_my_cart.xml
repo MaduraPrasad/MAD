@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyCart"
+    android:background="@drawable/background1">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="MY CART"
+    android:textColor="@android:color/white"
+    android:textStyle="bold"
+    android:textSize="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="20dp"
+    />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+
+        android:layout_marginTop="50dp"
+        android:id="@+id/scroll1">
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <Button
+    android:layout_width="fill_parent"
+    android:layout_height="100dp"
+    android:id="@+id/b1"
+        />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/b2"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:id="@+id/b3"
+        android:layout_marginTop="40dp
+"
+        />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/b4"/>
+
+</LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
